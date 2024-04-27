@@ -1,0 +1,136 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 40px;
+}
+.easy{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+section.about p {
+    text-align: center; 
+}
+
+section {
+    padding: 20px;
+}
+.t1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.services ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: inherit;
+}
+section .about {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+section .about p {
+    text-align: justify;
+}
+
+section .image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section .services ul {
+    list-style-type: none;
+}
+
+section .price-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section .price-list th, section .price-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+section .book-now {
+    margin-top: 20px;
+}
+.er{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.first{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.tr{
+    display: flex;
+    justify-content: center;
+}
+section .book-now form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section .book-now form input[type="text"],
+section .book-now form input[type="email"],
+section .book-now form input[type="tel"],
+section .book-now form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+section #book-now form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
